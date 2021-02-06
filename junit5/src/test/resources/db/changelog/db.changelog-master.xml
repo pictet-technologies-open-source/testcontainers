@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <changeSet id="USER_TABLE" author="johnrambo">
+
+        <createTable tableName="USER_TABLE">
+            <column name="ID" type="int"/>
+            <column name="NAME" type="varchar(255)"/>
+        </createTable>
+
+        <insert tableName="USER_TABLE">
+            <column name="ID" value="1"/>
+            <column name="NAME" value="John Rambo"/>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>
