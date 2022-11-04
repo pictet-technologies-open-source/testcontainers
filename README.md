@@ -4,4 +4,4 @@ You will find here all the source code necessary to start using Testcontainers i
 
 Testcontainers website : https://www.testcontainers.org/
 
-Original article : <insert url here>
+Original article : https://medium.com/pictet-technologies-blog/speeding-up-your-integration-tests-with-testcontainers-e54ab655c03d
